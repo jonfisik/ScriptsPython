@@ -1,2 +1,2 @@
 # ScriptsPython
- Primeiros passos na linguagem Python
+ Primeiros passos na linguagem **Python**.
