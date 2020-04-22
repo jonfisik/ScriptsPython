@@ -1,4 +1,4 @@
-'''Jonatan Paschoal 22/04/2020 Desafio 9 - Faça um programa que receba um valor em metros e transforme para centímetros e milímetros.'''
+'''Jonatan Paschoal 22/04/2020 Desafio 8 - Faça um programa que receba um valor em metros e transforme para centímetros e milímetros.'''
 print('=='*30)
 x = float(input('Digite um valor em metros: '))
 cent = x / 100
