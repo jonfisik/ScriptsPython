@@ -11,5 +11,7 @@ f = int(input('Digite o valor de f: '))
 g = int(input('Digite o valor de g: '))
 h = int(input('Digite o valor de h: '))
 resultado = a*(( b + c * ( d * e )) * f + (g - h))
-print('O resultado da expressão. {} {[ {} + {} ( {} x {} )] {} + ( {} - {} ) é {} }'.format(a,b,c,d,e,f,g,h,resultado))
+print('O resultado da expressão.')
+#print('{} {[ {} + {} ( {} x {} )] {} + ( {} - {} )} é {}'.format(a,b,c,d,e,f,g,h)) '''<----- corrigir essa linha'''
+print(a,'{[',b,'+',c,'(',d,'x',e,')]',f,'+ (',g,'-',h,')} é', resultado)
 print('--------------------------------------------')
