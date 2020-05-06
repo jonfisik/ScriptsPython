@@ -1,13 +1,12 @@
 '''O mesmo professor do desafio anterior quer sortear a ordem de apresentação de trbalhos de alunos. faça um programa que leia o nome dos quatros alunos e mostre a ordem sorteada'''
 import random
-print('------'*8)
-a = input(' Aluno 1: ')
-b = input(' Aluno 2: ')
-c = input(' Aluno 3: ')
-d = input(' Aluno 4: ')
-e = random.randint(1,4)
-f = random.randint(1,3)
-g = random.randint(1,2)
-h = random.randint(1,1)
-print('O aluno sorteado é {},{},{},{}!'.format(e,f,g,h))
-print('------'*8)
+print('-------'*8)
+print(' Digite o nome de quatro alunos para o sorteio: ')
+a = str(input(' Aluno 1: '))
+b = str(input(' Aluno 2: '))
+c = str(input(' Aluno 3: '))
+d = str(input(' Aluno 4: '))
+lista = [a,b,c,d]
+random.shuffle(lista) # O método shuffle embaralha a sequencia de uma lista.
+print(' A ordem do sorteio é {}!'.format(lista))
+print('-------'*8)
