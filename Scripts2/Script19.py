@@ -6,6 +6,5 @@ a = input(' Aluno 1: ')
 b = input(' Aluno 2: ')
 c = input(' Aluno 3: ')
 d = input(' Aluno 4: ')
-e = random.randrange(1,5)
-print('O aluno sorteado é {}!'.format(e))
+print(' O aluno sorteado é >> {} <<!'.format(random.choice([a,b,c,d]))) #O método choice escolhe itens em lista.
 print('------'*8)
