@@ -1,5 +1,4 @@
 ''' Jonatan Paschoal 11/05/2020 - Crie um programa que receba nome de cidades e verifique se começa com a palavra Santo'''
-import math
 
 print('---------------'*3)
 cidade = input('Digite o nome de uma cidade: ')
