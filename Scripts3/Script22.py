@@ -14,3 +14,16 @@ print('Letras minúsculas - {}'.format(nome.lower()))
 print('Total de letras - {}'.format(LetrasTotal))
 print('Total de letras do primeiro nome - {}'.format(primeiro))
 print('---------------'*3)
+
+#resolução alternativa
+nome = str(input('Digite seu nome: ')).strip() #strip elimina espaços a direita e a esquerda
+print('Analisando nome...')
+print('Nome em maiúsculo - {}'.format(nome.upper()))
+print('Nome em minúsculo - {}'.format(nome.lower()))
+print('Total de letras - {}'.format(len(nome) - nome.count(' ')))
+print('Seu primeiro nome tem {} letras.'.format(nome.find(' ')))
+#--------------------------------------------------------------
+separa = nome.split()
+print('Seu primeiro nom é {}. E tem {} letras.'.format(separa[0], len(separa[0])))
+print('---------------'*3)
+
