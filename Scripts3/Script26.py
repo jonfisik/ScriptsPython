@@ -6,7 +6,9 @@ frase = input('Digite uma frase: ')
 x = frase.lower() 
 y = x.count('a')
 z = x.find('a') + 1
+w = x.rfind('a') + 1
 #-------------------------------------------------------------
 print('Número de vezes que aparece a letra "a": {}.'.format(y))
 print('Primeira posição que aparece a letra "a": {}.'.format(z))
+print('A última posição da letra "a": {}'.format(w))
 print('---------------'*3)
