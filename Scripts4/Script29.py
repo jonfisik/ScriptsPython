@@ -6,7 +6,12 @@ x = abs(vel - 80)
 print('-----------------'*3)
 if vel <= 80:
     print('Você está {} km/h abaixo da média de 80 km/h.'.format(x))
+    print('Parabéns!')
 else:
-    print('Você ultrapassou {} km/h dá media.'.format(x))
+    print('Você ultrapassou {} km/h da média.'.format(x))
+    print('\n')
     print('Você terá que pagar R$ {:.2f}.'.format(x * 7))
+print('-----------------'*3)
+msn = ('Dirija com CUIDADO!!!')
+print('{:^51}'.format(msn))
 print('-----------------'*3)
