@@ -5,15 +5,17 @@ a = int(input('a =  '))
 b = int(input('b =  '))
 c = int(input('c =  '))
 print('---------------'*3)
-maior = 0
-menor = 0
-if a > b and a > c:
-    maior = a
-    if a < b and a < c:
-        menor = a
-        if b > c:
-            menor = c
-        else:
-            menor = b
-print('{} {}'.format(maior, menor))
+# testando menor
+menor = a
+if b < a and b < c:
+    maior = b
+if c < a and c < b:
+        menor = c
+# testando maior
+maior = a
+if b > a and b > c:
+    maior = b
+if c > a and c > b:
+    maior = c
+print('Menor: {}. Maior: {}.'.format(menor, maior))
 print('---------------'*3)
