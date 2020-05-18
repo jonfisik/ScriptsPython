@@ -7,7 +7,9 @@ print('=+=+=+=+=+=+=+='*3)
 if ano == 0:
     ano = date.today().year
 if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
-    print('O ano {} é bissexto!'.format(ano))
+    texto1 = 'O ano {} é bissexto!'.format(ano)
+    print('{:^45}'.format(texto1))
 else:
-    print('O ano {} não é bissexto!'.format(ano))
+    texto2 = 'O ano {} não é bissexto!'.format(ano)
+    print('{:^45}'.format(texto2))
 print('=+=+=+=+=+=+=+='*3)
