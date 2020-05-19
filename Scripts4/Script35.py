@@ -25,6 +25,9 @@ if lado1 < x and lado1 > y:
     print('{} > {} > {}'.format(x,lado1,y))
     print('Teste 1 ok')
 else:
+    print('{} + {} = {}'.format(lado2,lado3,x))
+    print('{} - {} = {}'.format(lado2,lado3,y))
+    print('Lado: {}.'.format(lado1))
     print('Falha no teste 1.')
 print('-----------------'*3)
 #lado2
@@ -38,6 +41,9 @@ if lado2 < x and lado2 > y:
     print('{} > {} > {}'.format(x,lado2,y))
     print('Teste 2 ok')
 else:
+    print('{} + {} = {}'.format(lado1,lado3,x))
+    print('{} - {} = {}'.format(lado1,lado3,y))
+    print('Lado: {}.'.format(lado2))
     print('Falha no teste 2.')
 print('-----------------'*3)
 #lado3
@@ -51,10 +57,13 @@ if lado3 < x and lado3 > y:
     print('{} > {} > {}'.format(x,lado3,y))
     print('Teste 3 ok')
 else:
+    print('{} + {} = {}'.format(lado1,lado2,x))
+    print('{} - {} = {}'.format(lado1,lado2,y))
+    print('Lado: {}.'.format(lado3))
     print('Falha no teste 3.')
 print('-----------------'*3)
 if ((lado2+lado3) > lado1 and lado1 > abs(lado2-lado3)) and ((lado1+lado3) > lado2 and lado2 > abs(lado1-lado3)) and ((lado2+lado1) > lado3 and lado3 > abs(lado1-lado1)):
-    print('ok')
+    print('As medidas [{}], [{}] e [{}] formam um triângulo.'.format(lado1,lado2,lado3))
 else:
-    print('não ok')
+    print('As medidas [{}], [{}] e [{}] não formam um triângulo.'.format(lado1,lado2,lado3))
 print('=+=+=+=+=+=+=+=+='*3)
