@@ -23,6 +23,7 @@ else:
         print('Criança.')
     else:
         print('Tá maduro(a) heim!!')
+print('A gente conversa mais depois.')
          
 print('fim')
 
