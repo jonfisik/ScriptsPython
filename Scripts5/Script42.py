@@ -63,7 +63,7 @@ else:
     print('Falha no teste 3.')
 print('-----------------'*3)
 if ((lado2+lado3) > lado1 and lado1 > abs(lado2-lado3)) and ((lado1+lado3) > lado2 and lado2 > abs(lado1-lado3)) and ((lado2+lado1) > lado3 and lado3 > abs(lado1-lado1)):
-    print('As medidas [{}], [{}] e [{}] formam um triângulo.'.format(lado1,lado2,lado3))
+    print('As medidas [{}], [{}] e [{}] formam um triângulo.'.format(lado1,lado2,lado3))#end=''para conectar strings
     if lado1 == lado2 == lado3:
         print('Temos um triângulo EQUILÁTERO.')
     elif lado1 == lado2 or lado1 == lado3 or lado2 == lado3:
@@ -71,5 +71,5 @@ if ((lado2+lado3) > lado1 and lado1 > abs(lado2-lado3)) and ((lado1+lado3) > lad
     elif lado1 != lado2 and lado1 != lado3 and lado2 != lado3:
         print('Temos um triângulo ESCALENO.')
 else:
-    print('As medidas [{}], [{}] e [{}] não formam um triângulo.'.format(lado1,lado2,lado3))
+    print('As medidas [{}], [{}] e [{}] não formam um TRIÂNGULO.'.format(lado1,lado2,lado3))
 print('=+=+=+=+=+=+=+=+='*3)
