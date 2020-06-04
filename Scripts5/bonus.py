@@ -3,6 +3,7 @@ print('=+=+=+=+=+=+=+=+='*3)
 print('Olá, vamos conversar?')
 nome = str(input('Digite seu nome: ')).strip()
 nome = nome.lower()
+
 if 'jonatan' in nome:
     print('uhm...')
     print('Esse nome é muito lindo!!! Apaixonei')
