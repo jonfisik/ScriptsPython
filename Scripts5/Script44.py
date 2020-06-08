@@ -15,20 +15,23 @@ print('[2] à vista cartão')
 print('[3] 2x no cartão')
 print('[4] 3x ou mais no cartão')
 print('-----------------'*3)
-pag = float(input('Qual é a opção? '))
-parc = float(input('Quantas parcelas? '))
+pag = int(input('Qual é a opção? '))
+parc = int(input('Quantas parcelas? '))
 #-------------------------------------------------
-if pag == 1:
-    print('Sua comprar será paga à vista.')
-    print('Valor da compra R$ {}.'.format(valor))
-elif pag == 2:
-    nPreco = valor + (valor * 0.05)
-    print('Sua compra será paga à vista com acréscimo de R$ {}.'.format(valor * 0.05))
-    print('Valor total compra R$ {}.'.format(nPreco))
-elif pag == 3:
-    print('Sua compra será parcelada em {}x de {} sem juros.'.format(parc, nPreco/parc))
-    print('Valor total compra R$ {}.'.format(valor))
-elif pag == 4:
-    print('Sua compra será parcelada em {}x de {} sem juros.'.format(parc, nPreco/parc))
-    print('Valor total compra R$ {}.'.format(nPreco))
+if pag !=1 and pag !=2 and pag !=3 and pag !=4:
+    nPreco = 0
+    print('Opção ERRADA!')
+    if pag == 1:
+        nPreco = valor - (valor * 0.1)
+        print('Sua comprar será paga à vista.')
+    elif pag == 2:
+        nPreco = valor - (valor * 0.05)
+        print('Sua compra será paga à vista com acréscimo de R$ {}.'.format(valor * 0.05))
+    elif pag == 3:
+        nPreco = valor
+        print('Sua compra será parcelada em 2x de {} sem juros.'.format(nPreco/2))
+    elif pag == 4:
+        nPreco = valor + (valor * 0.2)
+        print('Sua compra será parcelada em {}x de {} sem juros.'.format(parc, nPreco/parc))
+    print('Valor de compra R${}. Valor total compra R${}.'.format(valor,nPreco))
 print('=+=+=+=+=+=+=+=+='*3)
