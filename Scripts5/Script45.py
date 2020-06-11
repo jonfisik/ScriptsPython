@@ -46,7 +46,10 @@ print('( ( KEN ) )')
 sleep(1)
 print('( ( PO ) )')
 print('=+=+=+=+=+=+=+=+='*3)
-print('O computador escolheu {}'.format(pc))
-print('O jogador escolheu {}'.format(jogador))
-print('Resultado: {}.'.format(resultado))
+if jogada !=0 and jogada != 1 and jogada != 2:
+    print('Tecla ERRADA.')
+else:
+    print('O computador escolheu {}'.format(pc))
+    print('O jogador escolheu {}'.format(jogador))
+    print('Resultado: {}.'.format(resultado))
 print('=+=+=+=+=+=+=+=+='*3)
