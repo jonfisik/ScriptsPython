@@ -19,31 +19,36 @@ print('( ( PO ) )')
 linha = ('-='*17)
 print('{:^45}'.format(linha))
 if jogador != 0 and jogador != 1 and jogador!= 2:
-    print('Opção inválida!!')
+    erro = ('Opção inválida!!')
+    print('{:^45}'.format(erro))
 else:
     print('        O jogador jogou {}.'.format(item[jogador]))
     print('        O computador escolheu {}.'.format(item[computador]))
 print('{:^45}'.format(linha))
 #-------------------------------------------------
+e = ('EMPATE !!!') 
+c = ('COMPUTADOR VENCEU !!!')
+j = ('JOGADOR VENCEU !!!')
+#-------------------------------------------------
 if computador == 0:#computador jogou pedra
     if jogador == 0:
-        print('EMPATE')
+        print('{:^45}'.format(e))
     elif jogador == 1:
-        print('JOGADOR VENCEU!!!')
+        print('{:^45}'.format(j))
     elif jogador == 2:
-        print('COMPUTADOR VENCEU!!!')
+        print('{:^45}'.format(c))
 elif computador == 1:#computador jogou papel
     if jogador == 0:
-        print('COMPUTADOR VENCEU!!!')
+        print('{:^45}'.format(c))
     elif jogador == 1:
-        print('EMPATE')
+        print('{:^45}'.format(e))
     elif jogador == 2:
-        print('JOGADOR VENCEU!!!')
+        print('{:^45}'.format(j))
 elif computador == 2:#computador jogou tesoura
     if jogador == 0:
-        print('JOGADOR VENCEU!!!')
+        print('{:^45}'.format(j))
     elif jogador == 1:
-        print('COMPUTADOR VENCEU!!!')
+        print('{:^45}'.format(c))
     elif jogador == 2:
-        print('EMPATE!!!')
+        print('{:^45}'.format(e))
 print('=+=+=+=+=+=+=+=+='*3)
