@@ -15,10 +15,16 @@ sleep(1)
 print('( ( KEN ) )')
 sleep(1)
 print('( ( PO ) )')
-print('-='*15)
-print('O jogador jogou {}.'.format(item[jogador]))
-print('O computador escolheu {}.'.format(item[computador]))
-print('-='*15)
+#-------------------------------------------------
+linha = ('-='*17)
+print('{:^45}'.format(linha))
+if jogador != 0 and jogador != 1 and jogador!= 2:
+    print('Opção inválida!!')
+else:
+    print('        O jogador jogou {}.'.format(item[jogador]))
+    print('        O computador escolheu {}.'.format(item[computador]))
+print('{:^45}'.format(linha))
+#-------------------------------------------------
 if computador == 0:#computador jogou pedra
     if jogador == 0:
         print('EMPATE')
@@ -26,8 +32,6 @@ if computador == 0:#computador jogou pedra
         print('JOGADOR VENCEU!!!')
     elif jogador == 2:
         print('COMPUTADOR VENCEU!!!')
-    else:
-        print('Opção inválida!!')
 elif computador == 1:#computador jogou papel
     if jogador == 0:
         print('COMPUTADOR VENCEU!!!')
@@ -35,8 +39,6 @@ elif computador == 1:#computador jogou papel
         print('EMPATE')
     elif jogador == 2:
         print('JOGADOR VENCEU!!!')
-    else:
-        print('Opção inválida!!')
 elif computador == 2:#computador jogou tesoura
     if jogador == 0:
         print('JOGADOR VENCEU!!!')
@@ -44,6 +46,4 @@ elif computador == 2:#computador jogou tesoura
         print('COMPUTADOR VENCEU!!!')
     elif jogador == 2:
         print('EMPATE!!!')
-    else:
-        print('Opção inválida!!')
 print('=+=+=+=+=+=+=+=+='*3)
