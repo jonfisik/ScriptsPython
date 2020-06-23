@@ -13,7 +13,7 @@ else:
     print('Uhm, {} que nome mais comum.'.format(nome.capitalize()))
 #-----------------------------------------------------
 if nome == 'jonatan':
-    idade = int(input('Bonitão, qual tua idade ess ano? '))
+    idade = int(input('Bonitão, qual tua idade esse ano? '))
     print('{}? Só isso? Sempre Jovem!'.format(idade))
 else:
     print('Pesando...')
