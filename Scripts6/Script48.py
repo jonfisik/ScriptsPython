@@ -13,6 +13,6 @@ for c in range(1,501,2):
         cont = cont +1
         soma2 = soma2 + c
 print('Soma de 1 à 500: {}.'.format(soma))
-print(soma2)
-print(cont)
+print('A soma dos múltiplos de 3 é {}.'.format(soma2))
+print('Foram somados {} números.'.format(cont))
 print('=+=+=+=+=+=+=+=+='*3)
