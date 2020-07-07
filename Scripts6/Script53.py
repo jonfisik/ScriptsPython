@@ -12,7 +12,7 @@ for letra in range(len(junto)-1,-1,-1):
 print('-----------------'*3)
 print(junto,inverso)
 if inverso == junto:
-    print('Temos uma PALÍNDROME')
+    print('Temos um PALÍNDROME!')
 else:
     print('A frase digitada não é um PALÍNDROME.')
 print('=+=+=+=+=+=+=+=+='*3)
