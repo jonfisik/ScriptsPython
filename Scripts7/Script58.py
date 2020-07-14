@@ -10,7 +10,7 @@ Acabei de pensar em um número entre 0 e 10.
 Será que consegue adivinhar?''')
 palpite = int(input('Qual seu palpite? '))
 x = y = z = 0
-print('----------'*4)
+print('------------'*4)
 while palpite != num:
     if palpite > num:
         print('Menos... Tente mais uma vez.')
@@ -21,7 +21,7 @@ while palpite != num:
         palpite = int(input('Qual seu palpite? '))
         y = y + 1
 z = x + y + 1
-print('----------'*4)
+print('------------'*4)
 print('Acertou com {} tentativas. PARABÉNS!!!'.format(z))
 #print(num, palpite,z,x,y)
 print('x-x-x-x-x-x'*4)
