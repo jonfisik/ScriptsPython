@@ -10,14 +10,15 @@ print('-----'*6)
 val1 = int(input('Digite o primeiro valor: '))
 val2 = int(input('Digite o segundo valor: '))
 print('-----'*6)
-print('''     [ 1 ] somar
-     [ 2 ] multiplicar
-     [ 3 ] maior
-     [ 4 ] novos números
-     [ 5 ] sair do programa''')
-opcao = int(input('>>>>> Qual é sua opção: '))
-print('-----'*6)
-while opcao not 5:
+opcao = 0
+while opcao != 5:
+    print('''         [ 1 ] somar
+         [ 2 ] multiplicar
+         [ 3 ] maior
+         [ 4 ] novos números
+         [ 5 ] sair do programa''')
+    opcao = int(input('>>>>> Qual é sua opção: '))
+    print('-----'*6)
     if opcao == 1:
         print('A soma de {} e {} é {}.'.format(val1,val2,val1+val2))
     elif opcao == 2:
@@ -33,6 +34,9 @@ while opcao not 5:
     elif opcao == 5:
         print('Finalizando programa...')
         sleep(2)
-        print('FIM')
-    elif :
+        print('Obrigado. Volte sempre!')
+    else:
+        print('Opção inválida. Tente Novamente!')
+    print('-----'*6)
+    
     
