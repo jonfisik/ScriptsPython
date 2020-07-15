@@ -5,14 +5,34 @@
 [ 4 ] novos números
 [ 5 ] sair do programa
 Seu programa deverá realizar a operação solicitada em cada caso.'''
+from time import sleep
 print('-----'*6)
 val1 = int(input('Digite o primeiro valor: '))
 val2 = int(input('Digite o segundo valor: '))
 print('-----'*6)
-print('''
-[ 1 ] somar
-[ 2 ] multiplicar
-[ 3 ] maior
-[ 4 ] novos números
-[ 5 ] sair do programa''')
+print('''     [ 1 ] somar
+     [ 2 ] multiplicar
+     [ 3 ] maior
+     [ 4 ] novos números
+     [ 5 ] sair do programa''')
+opcao = int(input('>>>>> Qual é sua opção: '))
 print('-----'*6)
+while opcao not 5:
+    if opcao == 1:
+        print('A soma de {} e {} é {}.'.format(val1,val2,val1+val2))
+    elif opcao == 2:
+        print('O produto de {} e {} é {}.'.format(val1,val2,val1*val2))
+    elif opcao == 3:
+        if val1 > val2:
+            print('{} é maior que {}.'.format(val1,val2))
+        else:
+            print('{} é menor que {}.'.format(val1,val2))
+    elif opcao == 4:
+        val1 = int(input('Digite novamente o primeiro valor: '))
+        val2 = int(input('Digite novamente o segundo valor: '))
+    elif opcao == 5:
+        print('Finalizando programa...')
+        sleep(2)
+        print('FIM')
+    elif :
+    
