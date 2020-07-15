@@ -6,12 +6,17 @@
 [ 5 ] sair do programa
 Seu programa deverá realizar a operação solicitada em cada caso.'''
 from time import sleep
+from os import system
+
+
+system('cls')
 print('-----'*6)
 val1 = int(input('Digite o primeiro valor: '))
 val2 = int(input('Digite o segundo valor: '))
 print('-----'*6)
 opcao = 0
 while opcao != 5:
+    #system('cls')
     print('''         [ 1 ] somar
          [ 2 ] multiplicar
          [ 3 ] maior
@@ -21,13 +26,17 @@ while opcao != 5:
     print('-----'*6)
     if opcao == 1:
         print('A soma de {} e {} é {}.'.format(val1,val2,val1+val2))
+        system('pause')
     elif opcao == 2:
         print('O produto de {} e {} é {}.'.format(val1,val2,val1*val2))
+        system('pause')
     elif opcao == 3:
         if val1 > val2:
             print('{} é maior que {}.'.format(val1,val2))
+            system('pause')
         else:
             print('{} é menor que {}.'.format(val1,val2))
+            system('pause')
     elif opcao == 4:
         val1 = int(input('Digite novamente o primeiro valor: '))
         val2 = int(input('Digite novamente o segundo valor: '))
@@ -38,5 +47,5 @@ while opcao != 5:
     else:
         print('Opção inválida. Tente Novamente!')
     print('-----'*6)
-    
+    system('cls')
     
