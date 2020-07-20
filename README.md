@@ -4,7 +4,7 @@
 
 First steps with the Python language. This repository is the result of solving more than 100 Python course exercises, accompanied by the [COURSE IN VIDEO](https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&index=1) channel.
 
-Python is a dynamically typed programming language designed by Guido van Rossum. Much like the programming language Ruby, Python was designed to be easily read by programmers. Because of its large following and many libraries, Python can be implemented and used to do anything from webpages to scientific research.
+Python is a dynamically typed programming language designed by [Guido van Rossum](https://pt.wikipedia.org/wiki/Guido_van_Rossum). Much like the programming language Ruby, Python was designed to be easily read by programmers. Because of its large following and many libraries, Python can be implemented and used to do anything from webpages to scientific research.
 
 Contribute to this repository. Many novice programmers, like me, can benefit.
 
