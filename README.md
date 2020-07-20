@@ -6,3 +6,5 @@ Primeiros passos com a linguagem **Python**. Este repositório é o resultado da
 Python é uma linguagem de programação de tipo dinâmico projetada por [Guido van Rossum](https://pt.wikipedia.org/wiki/Guido_van_Rossum). Assim como a linguagem de programação Ruby, o Python foi projetado para ser facilmente lido pelos programadores. Devido ao grande número de seguidores e muitas bibliotecas, o Python pode ser implementado e usado para fazer qualquer coisa, de páginas da web a pesquisas científicas.
 
 Contribua com este reporitório. Muito programadores inicantes, assim como eu, podem ser beneficiados.
+
+Python is a dynamically typed programming language designed by Guido van Rossum. Much like the programming language Ruby, Python was designed to be easily read by programmers. Because of its large following and many libraries, Python can be implemented and used to do anything from webpages to scientific research.
