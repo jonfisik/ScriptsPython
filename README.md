@@ -18,4 +18,5 @@ Python é uma linguagem de programação de tipo dinâmico projetada por [Guido 
 
 Contribua com este reporitório. Muito programadores iniciantes, assim como eu, podem ser beneficiados.
 
-![python](https://github.com/jonfisik/ScriptsPython/blob/master/imagens/Python.svg.png)
+   ![python](https://github.com/jonfisik/ScriptsPython/blob/master/imagens/py3pequeno.png)
+
