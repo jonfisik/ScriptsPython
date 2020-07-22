@@ -1,3 +1,9 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/jonfisik/ScriptsPython)
+![GitHub language count](https://img.shields.io/github/languages/count/jonfisik/ScriptsPython)
+![GitHub top language](https://img.shields.io/github/languages/top/jonfisik/ScriptsPython)
+![GitHub](https://img.shields.io/github/license/jonfisik/ScriptsPython)
+![GitHub followers](https://img.shields.io/github/followers/jonfisik?style=social)
+
 # ScriptsPython :computer:
 
 ## Computer programming.
@@ -18,5 +24,4 @@ Python é uma linguagem de programação de tipo dinâmico projetada por [Guido 
 
 Contribua com este reporitório. Muito programadores iniciantes, assim como eu, podem ser beneficiados.
 
-   ![python](https://github.com/jonfisik/ScriptsPython/blob/master/imagens/py3pequeno.png)
-
+<img src="https://github.com/jonfisik/ScriptsPython/blob/master/imagens/py3pequeno.png" width="400">
