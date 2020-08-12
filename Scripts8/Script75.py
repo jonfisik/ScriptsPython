@@ -8,7 +8,10 @@ print('-'*40)
 print(f'Você digitou os valores: {num}.')
 print('-'*40)
 print(f'Você digitou {num.count(9)} vez(es) o número 9.')
-print(f'O número 3 está na {num.index(3)+1}ª posição.')
+if 3 in num:
+    print(f'O número 3 está na {num.index(3)+1}ª posição.')
+else:
+    print('O valor 3 não foi digitado.')
 print('Os números pares foram: ',end = '')
 for n in num:
     if n % 2 == 0:
