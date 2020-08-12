@@ -9,6 +9,9 @@ times = ('Athletico-PR','Sport','Atlético-MG','Grêmio','Inter','Santos','Braga
 print('-='*70)
 print(f'Rank dos 20 primeiros times - {times}')
 print('-='*70)
+for t in times:
+    print(f' - {t} ', end ='')
+print('-='*70)
 print(f'Ranck 5 primeiros - {times[0:5]}')
 print('-='*70)
 print(f'Os 4 últimos - {times[16:20]}')
