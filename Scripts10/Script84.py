@@ -7,8 +7,8 @@ nomeTemp = []
 princ = []
 maior = menor = 0
 while True:
-    nomeTemp.append(str(input('Digite seu nome: ')))
-    nomeTemp.append(int(input('Peso: ')))
+    nomeTemp.append(str(input('Digite seu nome: ').strip()))
+    nomeTemp.append(float(input('Peso: ')))
     
     if len(princ) == 0:
         maior = menor = nomeTemp[1]
