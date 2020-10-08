@@ -15,7 +15,16 @@ for linha in range(0,3):
         if matriz[linha][coluna] % 2 == 0:
             somaPar += matriz[linha][coluna]
     print()
+for linha in range(0,3):
+    somaCol += matriz[linha][2]
+for coluna in range(0,3):
+    if coluna == 0:
+        maior = matriz[1][coluna]
+    elif matriz[1][coluna] > maior:
+        maior = matriz[1][coluna]
 print('-+-'*15)
-print(f'A soma dos valores par é: {somaPar}.')
+print(f'soma dos valores pares: {somaPar}.')
+print(f'Soma dos elementos da coluna 3: {somaCol}')
+print(f'Maior elemento da linha 2: {maior}.')
 print('-+-'*15)
 
