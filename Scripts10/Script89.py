@@ -25,8 +25,10 @@ print('---'*15)
 while True:
     opc = int(input('Mostrar notas de qual aluno? (999, para interromper). '))
     if opc == 999:
-        print('FINALIZANDO...')
+        print(f'{"FINALIZANDO...":^45}')
         break
+    print('---'*15)
     if opc <= len(ficha)-1:
         print(f'Notas de {ficha[opc][0]} são {ficha[opc][1]}.')
-print('<<<   VOLTE SEMPRE   >>>')
+print(f'{"<<<   VOLTE SEMPRE   >>>":^45}')
+print('---'*15)
