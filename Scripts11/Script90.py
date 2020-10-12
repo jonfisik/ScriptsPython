@@ -5,10 +5,10 @@ dados['nome'] = str(input('Nome: '))
 dados['media'] = float(input(f'Média de "{dados["nome"]}": '))
 condicao.append(dados.copy())
 print('=+='*10)
+print(condicao)
 if dados['media'] >= 7:
         print('aprovado')
 elif 5 < dados['media'] < 7:
         print('recuperação')
 else:
         print('Reprovado')
-print(condicao)
