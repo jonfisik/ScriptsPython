@@ -14,8 +14,8 @@ def contador(i,f,p):
         c += p
     print('FIM!')
 
-#contador(10, 100, 2.5)
+contador(10, 100, 2.5)
 
-help(contador)
+#help(contador)
 
 
