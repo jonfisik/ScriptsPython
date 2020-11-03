@@ -1,5 +1,11 @@
-from lib.interface import*
+from lib.interface import *
+from lib.arquivo import *
 from time import sleep
+
+arq = 'cadastro.txt'
+
+if not arquivoExiste(arq):
+    criarArquivo(arq)
 
 while True:
     resposta = menu(['Ver pessoas cadastradas', 'Cadastrar nova pessoa', 'Sair do Sistema'])
