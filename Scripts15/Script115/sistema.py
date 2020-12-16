@@ -1,5 +1,5 @@
-from lib.interface import *
-from lib.arquivo import *
+#from lib.interface import *
+#from lib.arquivo import *
 from time import sleep
 
 arq = 'cadastro.txt'
